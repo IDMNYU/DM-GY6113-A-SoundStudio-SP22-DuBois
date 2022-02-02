@@ -29,11 +29,11 @@ f 1 0 8192 10 1 0 0.7 0. 0.5 0. 0.4
 ; i is for instrument (plays a note)
 ; args are:
 ; instrumentnumber, actiontime, duration, args
+i 1 0 5 600 3000
+i 1 0 5 200 5000
 i 1 4 2 200 5000
 i 1 4 2 400 5000
 i 1 4 2 300 2000
-i 1 0 5 600 3000
-i 1 0 5 200 5000
 e
 </CsScore>
 </CsoundSynthesizer>
