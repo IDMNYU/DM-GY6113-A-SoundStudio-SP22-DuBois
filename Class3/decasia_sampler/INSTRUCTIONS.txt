@@ -1,0 +1,31 @@
+
+Decasia Sampler
+by R. Luke DuBois
+
+Instructions
+
+1) to run the sampler, you need to download and install the Max 6 Runtime program:
+
+http://cycling74.com/downloads/
+
+once you have installed this program, your computer will have a program called Max Runtime somewhere in the /Applications folder.
+
+2) open Max Runtime
+
+3) once the application opens, double-click the file called 'DECASIA_SAMPLER.maxpat' (colored red) inside the SAMPLER folder.
+
+4) once the sampler is open, you may have to click on the button labeled 'audio configure' and select the correct audio interface from the window that appears.  you should only have to do this once.
+
+5) the setup is designed so that each keyboard can control a sampler on a different MIDI channel, so keyboard 1 should transmit on MIDI channel 1, keyboard 2 on channel 2, keyboard 3 on channel 3, and keyboard 4 on channel 4.  the keyboards can change sounds with their program/patch change buttons according to the following map:
+
+program 1 : piano a
+program 2 : piano b
+program 3 : organ down
+program 4 : organ up
+program 5 : subbass
+
+in order to get all four MIDI keyboards into the computer, you will have to either chain them together using their MIDI thru jacks or get a MIDI merge box.
+
+good luck.
+
+luke@music.columbia.edu
