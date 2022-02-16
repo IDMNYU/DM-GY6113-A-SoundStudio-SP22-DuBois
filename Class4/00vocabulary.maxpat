@@ -40,6 +40,30 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 497.0, 505.0, 62.0, 29.0 ],
+					"text" : "delay~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 57.0, 539.5, 86.0, 29.0 ],
+					"text" : "cascade~"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontsize" : 64.0,
 					"id" : "obj-5",
 					"maxclass" : "newobj",
@@ -292,7 +316,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "signal", "signal", "signal", "signal" ],
-					"patching_rect" : [ 57.0, 501.0, 50.5, 29.0 ],
+					"patching_rect" : [ 57.0, 492.0, 50.5, 29.0 ],
 					"text" : "fffb~"
 				}
 
